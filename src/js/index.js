@@ -14,7 +14,7 @@ var seconds=0;
 const SecondCounter=()=>{
     
   counter;
-  seconds=+1
+  seconds+=1;
   let secondString="000000"+seconds.toString();
   secondString=secondString.slice(-6);
   var counter={
@@ -29,3 +29,4 @@ const SecondCounter=()=>{
   ReactDOM.render(<Home counter={counter} />, document.querySelector("#app"));
 }
 
+setInterval(SecondCounter,1000)

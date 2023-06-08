@@ -11,10 +11,10 @@ const Home = ({counter}) => {
 	
 	return (
 		<div className="text-center">
-			<div className="col-2 mx-2">{counter.num1}</div>
-			<div className="col-2 mx-2">{counter.num2}</div>
-			<div className="col-2 mx-2">{counter.num3}</div>
-			<div className="col-2 mx-2">{counter.num4}</div>
+			<div className="col-col-6">{counter.num1}</div>
+			<div className="col-col-6">{counter.num2}</div>
+			<div className="col-col-6">{counter.num3}</div>
+			<div className="col-col-6">{counter.num4}</div>
 			<div className="col-2 mx-2">{counter.num5}</div>
 			<div className="col-2 mx-2">{counter.num6}</div>
 		</div>
